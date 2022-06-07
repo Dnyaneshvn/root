@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<!-- Starting Pages -->
+<url><loc>https://sagecode.net/engineering.html</loc></url>
+<url><loc>https://sagecode.net/programming.html</loc></url>
+
+<!-- Tutorials Index -->
+<url><loc>https://sagecode.net/html/index.html</loc></url>
+<url><loc>https://sagecode.net/script/index.html</loc></url>
+<url><loc>https://sagecode.net/sql/index.html</loc></url>
+<url><loc>https://sagecode.net/dart/index.html</loc></url>
+<url><loc>https://sagecode.net/python/index.html</loc></url>
+<url><loc>https://sagecode.net/ruby/index.html</loc></url>
+<url><loc>https://sagecode.net/julia/index.html</loc></url>
+<url><loc>https://sagecode.net/go/index.html</loc></url>
+<url><loc>https://sagecode.net/php/index.html</loc></url>
+<url><loc>https://sagecode.net/rust/index.html</loc></url>
+<url><loc>https://sagecode.net/c/index.html</loc></url>
+<url><loc>https://sagecode.net/cpp/index.html</loc></url>
+<url><loc>https://sagecode.net/java/index.html</loc></url>
+<url><loc>https://sagecode.net/scala/index.html</loc></url>
+
+
+</urlset>
