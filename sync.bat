@@ -1,0 +1,3 @@
+copy *.* .\root\ /y
+
+pause

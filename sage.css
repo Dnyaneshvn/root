@@ -47,6 +47,7 @@ a:active {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  max-height: 220px;
 }
 
 .fixed  {
