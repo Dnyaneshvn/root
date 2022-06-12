@@ -1,3 +1,4 @@
-copy *.* .\root\ /y
+copy *.html ..\ /y
+copy *.css  ..\ /y
 
 pause
