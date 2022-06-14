@@ -94,7 +94,10 @@ a:active {
 
 /* style used by social image */
 .fix-social {
-  width: 45px;
+  width:  45px;
+  height: 45px;
+  overflow: hide;
+  position: relative;
 }
 
 /* style used by social buttons on first page */
