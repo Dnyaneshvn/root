@@ -1,12 +1,5 @@
-/* Style for all pages*/
-
 body {background-color: WhiteSmoke;}
 .container {background-color: #fff;}
-
-h1 { color: purple; font-size: 2.1rem;  }
-h2 { color: brown;  font-size: 1.8rem;  }
-h3 { color: green;  font-size: 1.5rem;  }
-h4 { color: fuchsia;  font-size: 1.2rem;  }
 
 h1, h2, h3, h4  {
    font-family: Helvetica, Arial;
@@ -16,6 +9,10 @@ h2, h3, h4 {
    padding-top: 0.35em;
 }
 
+h1 { color: purple;   font-size: 2rem;  }
+h2 { color: brown;    font-size: 1.8rem;  }
+h3 { color: green;    font-size: 1.5rem;  }
+h4 { color: fuchsia;  font-size: 1.2rem;  }
 
 p, div, tr, th, td {
   font-size: 1.1rem;
@@ -43,16 +40,24 @@ a:active {
 }
 
 .split-panel {
-  height:calc(100% - 120px);
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  max-height: 75%;
+    hyphens: auto;
+}
+
+@media screen and (min-width: 600px) {
+    .split-panel {
+        height: calc( 100% - 140px );
+    }
+
+    #main-img {
+        border-radius:5px;
+        max-width:600px;
+    }
 }
 
 .fixed  {
-  font-family:"Droid Sans Mono", "Lucida Console", "Arial Monospace";
-  font-size: 100%;
+  font-family: "Consolas", "Droid Sans Mono", "Arial Monospace", 
+               "Lucida Console";
+  font-size: 1.1em;
 }
 
 .info {
