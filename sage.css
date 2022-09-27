@@ -108,6 +108,8 @@ a:active {
 /* style used by social buttons on first page */
 .icon-sm {
   margin: 6px 6px;
+  background-color: whitesmoke;
+  color: whitesmoke;
 }
 
 
