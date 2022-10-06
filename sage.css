@@ -56,11 +56,11 @@ a:active {
 }
 
 .frame-host {
-   padding:45% 0 0 0; 
+   padding:50% 0 0 0; 
    position:relative;
 }
 
-@media screen and (max-width:641px) {
+@media screen and (max-width:640px) {
   .top-video {
      left: 0%;
      width:100%;
@@ -88,13 +88,12 @@ a:active {
     .top-video {
         position: absolute;
         top: 0;
-        left:  12%;
+        left:  15%;
         width: 70%;
-        max-width:640px;
     }
 
     .frame-host {
-      padding:45% 0 0 0; 
+      padding:50% 0 0 0; 
     }
 
     #main-img {
