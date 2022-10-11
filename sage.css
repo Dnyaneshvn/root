@@ -39,10 +39,44 @@ a:active {
   color: purple;
 }
 
-.split-panel {
-    hyphens: auto;
+/* languages and output */
+pre {
+  background-color:black;
+  color:lightgreen;
+  border-radius: 4px;
+  counter-reset: line;
+  padding: 4px 0px 0px 0px;
+  margin: 0px !important;
+  margin-top: 0px;
+  margin-bottom: 4px;
 }
 
+pre code {
+    font-family: "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Arial Monospace", monospace, Courier;
+    font-size: 0.9rem;
+    margin: 0px;
+}
+
+pre span.line {
+  display: block;
+  line-height: 1.1 rem;
+  counter-increment: line;
+}
+
+.language-out, .output {
+  padding: 8px 4px 4px 8px;
+}
+
+pre span.line:before {
+  content: counter(line);
+  display: inline-block;
+  border-right: 1px solid gray;
+  padding: 0 .5em;
+  margin-right: .5em;
+  color: #888;
+  width: 2.5rem;
+  text-align: right;
+}
 #main-img {
     border-radius:5px;
     max-width:640px;
@@ -58,6 +92,28 @@ a:active {
 .frame-host {
    padding:50% 0 0 0; 
    position:relative;
+}
+
+.split-panel {
+    hyphens: auto;
+}
+
+.panel-heading {
+    background-color:seagreen; 
+    color: yellow;
+    padding-left: 10px;
+    margin-top: 10px !important;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.panel-body {
+    border-radius: 0px;     
+}
+
+.code-panel {
+    height: 100%;    
+    background-color: black;   
+    border-radius: 0px 0px 8px 8px;          
 }
 
 @media screen and (max-width:640px) {
@@ -79,6 +135,10 @@ a:active {
 @media screen and (min-width: 640px) {
     .split-panel {
         height: calc( 100% - 140px );
+    }
+
+    .panel-body {
+       height: calc( 100% - 80px );    
     }
 
     #main-img {
@@ -160,7 +220,6 @@ a:active {
   color: white;
 }
 
-
 .icon-sm:hover {
   opacity: 0.7;
 }
@@ -182,40 +241,6 @@ a:hover {
   font-size: 1.1em;
 }
 
-/* languages and output */
-pre {
-  background-color:black;
-  color:whitesmoke;
-  border-radius: 4px;
-  counter-reset: line;
-  padding: 4px 8px 0px 0px;
-}
-
-pre code {
-      font-family: "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Arial Monospace", monospace, Courier;
-      font-size: 100%;
-}
-
-pre span.line {
-  display: block;
-  line-height: 1.5rem;
-  counter-increment: line;
-}
-
-.language-out, .output {
-  padding: 8px 8px 4px 8px;
-}
-
-pre span.line:before {
-  content: counter(line);
-  display: inline-block;
-  border-right: 1px solid gray;
-  padding: 0 .5em;
-  margin-right: .5em;
-  color: #888;
-  width: 2.5rem;
-  text-align: right;
-}
 
 .directive-hash {
   color: palevioletred;
