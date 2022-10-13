@@ -127,6 +127,9 @@ pre span.line:before {
 .code-panel {
     height: 100%;    
     background-color: black;   
+    color: lightgreen;
+    border: solid 2px;
+    border-color: darkgrey;
     border-radius: 0px 0px 8px 8px;          
 }
 
@@ -152,7 +155,7 @@ pre span.line:before {
     }
 
     .panel-body {
-       height: calc( 100% - 80px );    
+       height: calc( 100% - 45px );    
     }
 
     #main-img {
