@@ -2,8 +2,8 @@ body {background-color: WhiteSmoke;}
 .container {background-color: #fff;}
 
 @font-face {
-font-family: "Share Tech Mono";
-src: url("https://sagecode.net/ShareTechMono.ttf") format("truetype");
+  font-family: "Share Tech Mono";
+  src: url("https://sagecode.net/ShareTechMono.ttf") format("truetype");
 }
 
 h1, h2, h3, h4  {
